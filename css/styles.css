@@ -361,7 +361,7 @@ a.facebook_social_icon {
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 51.5%; /* 16:9 */
+	padding-bottom: 50%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
 }
