@@ -361,7 +361,7 @@ a.facebook_social_icon {
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 50%; /* 16:9 */
+	padding-bottom: 51.5%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
 }
@@ -403,6 +403,8 @@ a.facebook_social_icon {
 }
 
 @media screen and (max-width: 880px) {
+
+
 	.lowers_section_inner_wrapper {
 		padding-top: 0px;
 		width: 100%;
@@ -477,6 +479,9 @@ a.facebook_social_icon {
 }
 
 @media screen and (max-width: 645px) {
+	.videoWrapper {
+	padding-bottom: 50%; /* 16:9 */
+}
 	.header_iphone {
 		margin-top: 25px;
 		height:300px;
