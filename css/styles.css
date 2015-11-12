@@ -46,6 +46,10 @@ body{
 	overflow-x:hidden;
 }
 
+p {
+	padding-bottom: 1.6em;
+}
+
 /* Header */
 .header_wrapper {
 	height: 830px;
@@ -141,6 +145,12 @@ a.appstore_button:hover {
 	font-weight: 300;
 	padding-bottom: 80px;
 }
+.features_inner_section ul li h2  {
+	font-size: 21px;
+	padding-bottom: 20px;
+	color: #335452;
+
+}
 .features_inner_section ul {
 	float: left;
 	width: 100%;
@@ -191,7 +201,7 @@ a.appstore_button:hover {
 .lower_section_one {
 	width: 100%;
 	float: left;
-	background-color: #B1C9C1;
+	background-color: #90A7A0;
 }
 .lowers_section_inner_wrapper {
 	width: 880px;
@@ -201,8 +211,8 @@ a.appstore_button:hover {
 	padding-top: 110px;
 }
 .lower_section_one .lower_section_left_column {
-	width: 423px;
-	height: 734px;
+	width: 523px;
+	height: 434px;
 	float: left;
 }
 .iphone_section_one {
@@ -212,10 +222,10 @@ a.appstore_button:hover {
 	background-repeat:no-repeat;
 }
 .lower_section_one .lower_section_right_column {
-	width: 423px;
+	width: 323px;
 	float: left;
-	padding-top: 235px;
-	padding-left: 10px;
+	padding-top: 0px;
+	padding-left: 20px;
 }
 .lower_section_one .lower_section_right_column h3 {
 	font-size: 36px;
@@ -394,11 +404,13 @@ a.facebook_social_icon {
 
 @media screen and (max-width: 880px) {
 	.lowers_section_inner_wrapper {
+		padding-top: 0px;
 		width: 100%;
 		height:auto;
 	}
 	.lower_section_one .lower_section_left_column {
 		width: 100%;
+		padding-bottom: 20px;
 		padding-left: 0px;
 		padding-right: 0px;
 		height: auto;
@@ -414,15 +426,15 @@ a.facebook_social_icon {
 		width: 100%;
 		padding-left: 0px;
 		padding-right: 0px;
-		padding-top: 0px;
-		padding-bottom: 50px;
+		padding-top: 30px;
+		padding-bottom: 20px;
 	}
 	.lower_section_two .lower_section_right_column {
 		width: 100%;
 		padding-left: 0px;
 		padding-right: 0px;
 		height: auto;
-		padding-bottom: 50px;
+		padding-bottom: 00px;
 	}
 	.iphone_section_one {
 		margin-left:auto;
@@ -466,6 +478,7 @@ a.facebook_social_icon {
 
 @media screen and (max-width: 645px) {
 	.header_iphone {
+		margin-top: 25px;
 		height:300px;
 	}
 	.iphone_section_one {
@@ -484,6 +497,10 @@ a.facebook_social_icon {
 		background-image: url(../images/iphone_section_1.png);
 		background-repeat: no-repeat;
 	}
+	.inner_header_wrapper {
+		padding-top: 80px;
+	}
+
 	.inner_header_wrapper h1 {
 		font-size: 26px;
 		padding-left: 20px;
@@ -514,6 +531,12 @@ a.facebook_social_icon {
 	.features_inner_section h2 {
 		font-size: 22px;
 	}
+
+	.features_inner_section ul li h2  {
+		font-size: 18px;
+		padding-bottom: 20px;
+	}
+
 	.final_cta_section h4 {
 		font-size: 20px;
 	}
