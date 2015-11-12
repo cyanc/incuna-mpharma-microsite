@@ -140,7 +140,7 @@ a.appstore_button:hover {
 	padding-top: 90px;
 }
 .features_inner_section h2 {
-	font-size: 28px;
+	font-size: 32px;
 	color: #707070;
 	font-weight: 300;
 	padding-bottom: 80px;
@@ -213,6 +213,7 @@ a.appstore_button:hover {
 .lower_section_one .lower_section_left_column {
 	width: 523px;
 	height: 434px;
+	padding-top: 60px;
 	float: left;
 }
 .iphone_section_one {
@@ -251,6 +252,8 @@ a.appstore_button:hover {
 	width: 523px;
 	height: 534px;
 	float: left;
+	padding-top: 60px;
+
 }
 .iphone_section_two {
 	width: 423px;
@@ -332,7 +335,7 @@ a.facebook_social_icon {
 	background-repeat:no-repeat;
 }
 .social_icons_wrapper {
-	width: 74px;
+	width: 34px;
 	height: 32px;
 	margin-left: auto;
 	margin-right: auto;
@@ -413,6 +416,7 @@ a.facebook_social_icon {
 	.lower_section_one .lower_section_left_column {
 		width: 100%;
 		padding-bottom: 20px;
+		padding-top: 0px;
 		padding-left: 0px;
 		padding-right: 0px;
 		height: auto;
@@ -421,7 +425,6 @@ a.facebook_social_icon {
 		width: 100%;
 		padding-left: 0px;
 		padding-right: 0px;
-		padding-top: 0px;
 		padding-bottom: 95px;
 	}
 	.lower_section_two .lower_section_left_column {
@@ -433,6 +436,7 @@ a.facebook_social_icon {
 	}
 	.lower_section_two .lower_section_right_column {
 		width: 100%;
+		padding-top: 0px;
 		padding-left: 0px;
 		padding-right: 0px;
 		height: auto;
@@ -534,7 +538,7 @@ a.facebook_social_icon {
 		line-height: 38px;
 	}
 	.features_inner_section h2 {
-		font-size: 22px;
+		font-size: 26px;
 	}
 
 	.features_inner_section ul li h2  {
